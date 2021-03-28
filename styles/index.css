@@ -1,28 +1,16 @@
 body{
     background-repeat: no-repeat;
+    background-size: 1540px;
     width: 1535px;
     height: 500px;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
-
-#post_buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-
+.logo-title {
+    font-size: 49px;
 }
-.post_in_buttons{
-    margin: 10px;
-    width: 150px;
-    height: 40px;
-    background-color: orange;
-    color: black;
-}
-
-/*  creat Post model  */
+/*  creat Post modal  */
 .creat_post_modal{
     position: fixed;
     display: none;
@@ -87,4 +75,38 @@ body{
 }
 .creat_post_close:hover{
     color: #4CAF50;
+}
+
+.topButtons {
+    font-size: 15px;
+    border-bottom: 3px solid darkgrey;
+    border-right: 3px solid darkgrey;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+#post_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#all_posts {
+    width : 90px;
+}
+.post_in_buttons{
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #d2aa1c;
+    color: black;
+    border-left: 3px solid lightgrey;
+    border-top: 3px solid lightgrey;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+    font-weight: bold;
+    font-size: 15px;
+    width:110px;
+
 }
